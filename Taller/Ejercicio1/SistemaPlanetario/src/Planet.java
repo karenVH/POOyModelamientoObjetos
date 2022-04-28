@@ -1,64 +1,121 @@
 import java.util.UUID;
 
+/**
+ * @author Karen Vásquez Hernández
+ * 
+ * Clase que modela planetas
+ */
 public class Planet {
     //Atributos principales de la clase planet
-    public static final double sunDistance2 = 0;
-    public static String name;
-    public static double planetMass;
+    public static final double sunDistance2 = 0; 
+    public static String name; 
+    public static double planetMass; 
     public static double density;
-    public static double diameter;
-    public static double sunDistance;
+    public static double diameter; 
+    public static double sunDistance; 
     public UUID identifier;
 
-    //get y sets/
+    // Getters y Setters
+    /**
+     * Metodo para Obtener la distancia del sol
+     * @return distancia del sol1 
+     */
     public static double getSundistance2() {
         return sunDistance2;
     }
     
+    /**
+     * Metodo para obtener el nombre del planeta
+     * @return nombre del planeta
+     */
     public String getName() {
         return name;
     }
     
+    /**
+     * Metodo para mostrar el nombre del planeta
+     * @param name nombre del planeta
+     */
     public void setName(String name) {
         this.name = name;
     }
     
+    /**
+     * Metodo para obtener la masa del planeta
+     * @return masa del planeta
+     */
     public double getPlanetMass() {
         return planetMass;
     }
     
+    /**
+     * Metodo para mostrar las masa ddel planeta
+     * @param planetMass Masa del planeta
+     */
     public void setPlanetMass(double planetMass) {
         this.planetMass = planetMass;
     }
     
+    /**
+     * Metodo para obtener la densidad del planeta
+     * @return densidad del planeta
+     */
     public double getDensity() {
         return density;
     }
     
+    /**
+     * Metodo para mostrar la densidad del planeta
+     * @param density densidad del planeta
+     */
     public void setDensity(double density) {
         this.density = density;
     }
     
+    /**
+     * Metodo para obtener el diametro del planeta
+     * @return diametro del planeta
+     */
     public double getDiameter() {
         return diameter;
     }
     
+    /**
+     * Metodo para mostrar el diametro del planeta
+     * @param diameter diametro del planeta
+     */
     public void setDiameter(double diameter) {
         this.diameter = diameter;
     }
     
+    /**
+     * Metodo para obtener la distancia del sol
+     * @return distancia del sol
+     */
     public double getSunDistance() {
         return sunDistance;
     }
     
+    /**
+     * Metodo para mostrar la distancia del sol
+     * @param sunDistance distancia al sol
+     */
     public void setSunDistance(double sunDistance) {
         this.sunDistance = sunDistance;
     }
     
+    /**
+     * Metodo para obtener el identificador unico
+     * @return identificador unico
+     */
     public UUID getIdentifier() {
         return identifier;
     }
     
+    /**
+     * Metodo para mostrar el identificador unico
+     * @param identifier
+     */
     public void setIdentifier(UUID identifier) { 
         
     this.identifier = identifier;
@@ -66,12 +123,12 @@ public class Planet {
 
     /**
      * Connstructor para inicializar atributos.
-     * @param name
-     * @param planetMass
-     * @param density
-     * @param diameter
-     * @param sunDistance
-     * @param identifier
+     * @param name nombre del planeta
+     * @param planetMass masa del planeta
+     * @param density densidad del planeta
+     * @param diameter diametro del planeta
+     * @param sunDistance distancia al sol
+     * @param identifier identificador unico
      */
     public Planet(String name, double planetMass, double density, double diameter, double sunDistance, UUID identifier) {
         this.name = name;
@@ -83,9 +140,9 @@ public class Planet {
     }
 
     /**
-     * Constructor con
-     * @param planetMass
-     * @param sunDistance
+     * Constructor para una funcion
+     * @param planetMass masa del planeta
+     * @param sunDistance distancia del sol
      */
     public Planet(double planetMass, double sunDistance) {
         this.planetMass = planetMass;
@@ -121,9 +178,4 @@ public class Planet {
         System.out.println("La fuerza de atracción es: " + force);
         return force;
     }
-
-
-
-    
-    
 }

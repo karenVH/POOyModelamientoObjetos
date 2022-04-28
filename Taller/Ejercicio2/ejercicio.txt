@@ -1,7 +1,7 @@
 ¿Es posible ejecutar un programa en java que contenga varias clases con métodos main?
  En caso positivo, ¿cómo se determina el punto de entrada a un programa?
 
- Sí seria posible ejecutar un programa en java que contenga varias clases con metodos main,
- y seria posible si se llama el metodo main desde otro metodo panadole parametros y 
- de acuerdo  a esto daria resultados diferente que den la posibilidad de tener los main 
- que se quieran en un programa
+No seria posible, ya que el metodo main(principal) siempre es el unico de la clase
+y da apertura a otras funciones que pueden hacer funcionar el proyecto. o si hablamos 
+de en diferentes archivos de un mismo programa, habria la posibilidad separando lo 
+que cada clase con metodo main quiere ejecutar.

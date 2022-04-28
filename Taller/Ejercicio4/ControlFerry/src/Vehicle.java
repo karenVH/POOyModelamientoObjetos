@@ -25,11 +25,11 @@ public class Vehicle{
     
     /**
      * Constructor  principal
-     * @param numberPassengers
-     * @param crew
-     * @param numberWheels
-     * @param dateEnrollment
-     * @param displacement
+     * @param numberPassengers Numero de pasajeros
+     * @param crew tripulacion
+     * @param numberWheels numero de ruedas
+     * @param dateEnrollment fecha de la matriucla del vehiculo
+     * @param displacement desplazamiento del vehiculo
      */
     public Vehicle(int numberPassengers, boolean crew, int numberWheels, Date dateEnrollment, String displacement) {
         this.numberPassengers = numberPassengers;
@@ -40,7 +40,7 @@ public class Vehicle{
     }
     
     /**
-     * Constructor 
+     * Constructor 2
      * @param numberPassengers
      * @param crew
      * @param numberWheels
@@ -57,9 +57,9 @@ public class Vehicle{
 
 
 
-    //GETS Y SETS
+    //Getters and Setters
     /**
-     * get
+     * Metodo para obtener el numero de pasajeros
      * @return numero de pasajeros
      */
     public int getNumberPassengers() {
@@ -67,7 +67,7 @@ public class Vehicle{
     }
 
     /**
-     * set
+     * Metodo para mostrar el numero de pasajeros
      * @param numberPassengers
      */
     public void setNumberPassengers(int numberPassengers) {
@@ -75,23 +75,23 @@ public class Vehicle{
     }
 
     /**
-     * get
-     * @return si hay o no tripulacion
+     * Metodo para obtener la tripulacion
+     * @return tripulacion
      */
     public boolean isCrew() {
         return crew;
     }
 
     /**
-     * set
-     * @param crew
+     * Metodo para mostrar si hay o no tripulacion
+     * @param crew tripulacion
      */
     public void setCrew(boolean crew) {
         this.crew = crew;
     }
 
     /**
-     * get
+     * Metodo para obtener el numero de ruedas
      * @return numero de ruedas
      */
     public int getNumberWheels() {
@@ -99,7 +99,7 @@ public class Vehicle{
     }
 
     /**
-     * set
+     * Metodo para mostrar el numero de ruedas
      * @param numberWheels
      */
     public void setNumberWheels(int numberWheels) {
@@ -107,7 +107,7 @@ public class Vehicle{
     }
 
     /**
-     * get
+     * Metodos para obtener el año de la matricula
      * @return devuelve año matricula
      */
     public Date getYearEnrollment() {
@@ -115,7 +115,7 @@ public class Vehicle{
     }
 
     /**
-     * set
+     * Metodo para mostrar el año de la matricula
      * @param yearEnrollment
      */
     public void setDateEnrollment() {
@@ -123,7 +123,7 @@ public class Vehicle{
     }
 
     /**
-     * get
+     * Metodo para obtener el desplazamiento del vehiculo
      * @return medio de desplazamiento del vehiculo
      */
     public String getDisplacement() {
@@ -131,7 +131,7 @@ public class Vehicle{
     }
 
     /**
-     * set
+     * Metodo para mostrar el medio de desplazamiento
      * @param displacement
      */
     public void setDisplacement(String displacement) {

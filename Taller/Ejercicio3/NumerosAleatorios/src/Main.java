@@ -1,3 +1,9 @@
+
+/**
+ * @author Karen Vásquez Hernandez
+ * 
+ * Clase principal que muestra los numeros aleatorios digitados por el usuario que son reales
+ */
 public class Main {
     public static void main(String[] args) throws Exception {
         //numeros aleatorios

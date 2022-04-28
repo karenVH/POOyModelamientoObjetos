@@ -6,6 +6,11 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * @author Karen Vásquez Hernandez 
+ * 
+ * Clase principal 
+ */
 public class Main {
     
     public static void main(String[] args) throws Exception {

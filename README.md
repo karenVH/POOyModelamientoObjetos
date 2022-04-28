@@ -1,16 +1,24 @@
 # POOyModelamientoObjetos
-La carpeta taller está dividida por 6 carpetas las cuales tienes la solucion de los 6 ejercicios de POO y modelamiento de Objetos
-los programas se ejecutan separados
-Creado en el ambiente de visual.
-## Carpeta 1
+## @authors 
+- Karen Vásquez Hernández
+## Ejercicios de POO y modelamiento de objetos
+Este proyecto está estructurado por 6 carpetas, las cuales contienen la solucion de cada ejercicio.
+* Para tener en cuenta:
+    - Cada carpeta tiene un archivo ´src´, en el cual están los archivos con codigo fuente 
+    - Cada archivo corre por separado
+## Ejercicio 1
 Abstraccion de un sistema planetario
-## Carpeta 2
- Este solo tiene un archivo de tipo txt. respondiendo a la pregunta del taller
-## Carpeta 3
+## Ejercicio 2
+ ¿Es posible ejecutar un programa en java que contenga varias clases con métodos main? En caso positivo, ¿cómo se determina el punto de entrada a un programa?
+    - Solo tiene un archivo ´txt´
+## Ejercicio 3
  Ejecuta en un array numeros aleatorios reales
-## Carpeta 4
- Ejecuta la clase vejiculo y crea 10 vehiculos de acuerdo a sus necesidades
-## Carpeta 5
+## Ejercicio 4
+ Ejecuta la clase vehiculo y crea 10 vehiculos de acuerdo a sus necesidades
+## Ejercicio 5
 se pueden Crear 10 vehiculos y clasificar por tipos
-## Carpeta 6
-##
+## Ejercicio 6
+ programa que lea números del teclado hasta que se introduce dos veces seguidas el mismo número
+## Espacio de trabajo
+- El proyecto está creado en Visual Studio Code
+
